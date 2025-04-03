@@ -27,16 +27,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    backdrop-filter: blur;
 }
 .container::before{
     content:'' ;
     width:180px;
     height: 180px;
     background: #f41b75;
-    border-bottom: 5px;
+    border-radius: 50%;
       position: absolute;
-      left: -50px;
-      right: -50px;
+      right: -30px;
+      bottom: -50px;
       z-index: -1;
 
 }
@@ -44,8 +45,8 @@
     content:'' ;
     width:180px;
     height: 180px;
-    background: #f41b75;
-    border-bottom: 5px;
+    background: #419aff;
+    border-radius: 5px;
       position: absolute;
       left: -50px;
       right: -50px;
