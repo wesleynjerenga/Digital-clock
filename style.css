@@ -30,4 +30,25 @@
 }
 .container::before{
     content:'' ;
+    width:180px;
+    height: 180px;
+    background: #f41b75;
+    border-bottom: 5px;
+      position: absolute;
+      left: -50px;
+      right: -50px;
+      z-index: -1;
+
+}
+.container::after     {
+    content:'' ;
+    width:180px;
+    height: 180px;
+    background: #f41b75;
+    border-bottom: 5px;
+      position: absolute;
+      left: -50px;
+      right: -50px;
+      z-index: -1;
+
 }
